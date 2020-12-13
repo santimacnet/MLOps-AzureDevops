@@ -1,18 +1,8 @@
----
-page_type: sample
-languages:
-- python
-products:
-- azure
-- azure-machine-learning-service
-- azure-devops
-- azure-databricks
-description: "Set up and operationalize an MLOps flow leveraging Azure Machine Learning Python SDK, Azure Databricks, and Azure DevOps."
----
-
 # MLOps with Azure DevOps
 
 [![Build Status](https://dev.azure.com/aidemos/MLOps/_apis/build/status/Azure-Samples.MLOpsDatabricks.BuildTrain?branchName=master)](https://dev.azure.com/aidemos/MLOps/_build/latest?definitionId=101&branchName=master)
+
+Set up and operationalize an MLOps flow leveraging Azure Machine Learning Python SDK, Azure Databricks, and Azure DevOps.
 
 This sample shows you how to operationalize your Machine Learning development
 cycle with **Azure Machine Learning Service** and **Azure Databricks** - as a
@@ -25,9 +15,11 @@ workloads, such as:
 |Technology|Objective/Reason|
 |----------|----------------|
 |Azure DevOps|The platform to help you implement DevOps practices on your scenario|
-|Azure Machine Learning Service|Manage Machine Learning models with the power of Azure|
+|Azure Machine Learning|Manage Machine Learning models with the power of Azure|
 |Azure Databricks|Use its compute power as a Remote Compute for training models|
 |Azure Container Instance|Deploy Machine Learning models as Docker containers|
+|Languages|python|
+
 
 ## Preparing the environment
 
